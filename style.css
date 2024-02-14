@@ -225,3 +225,13 @@ section{
   border-left: 384px solid transparent ;
 
 }
+
+.home-img img{
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  left: auto;
+  width: 60%;
+  pointer-events: none;
+
+}
