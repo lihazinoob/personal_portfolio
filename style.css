@@ -64,7 +64,7 @@ body{
   width: 100%;
   height: .2rem;
   background: var(--white-color);
-
+  
 }
 
 #darkMode-icon
@@ -117,6 +117,11 @@ section{
   font-size: 2rem;
   color: var(--main-color);
   margin: 2.5rem 1.5rem 3rem 0;
+  transition: .5s ease;
 
+}
 
+.home-content .social-media a:hover{
+  background: var(--main-color);
+  color: var(--white-color);
 }
