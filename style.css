@@ -99,3 +99,24 @@ section{
   font-size: 5.6rem;
   font-weight: 700;
 }
+
+.home-content p{
+  font-size: 1.6rem;
+}
+
+.home-content .social-media a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  border: .2rem solid var(--main-color);
+  border-radius: 50%;
+  box-shadow: 0 .2rem .5rem var(--shadow-color);
+  font-size: 2rem;
+  color: var(--main-color);
+  margin: 2.5rem 1.5rem 3rem 0;
+
+
+}
