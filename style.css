@@ -295,3 +295,20 @@ span{
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
 }
+
+
+.academics .academics-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.academics-container .academics-box{
+  flex: 1 1 30rem;
+  background: var(--bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
