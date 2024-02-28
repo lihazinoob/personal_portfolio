@@ -324,7 +324,16 @@ span{
   text-align: center;
   border-top: .6rem solid var(--main-color);
   border-bottom: .6rem solid var(--main-color);
+  transition: .5s ease;
 }
+
+.academics-container .academics-box:hover{
+  box-shadow: 0 .1rem 2rem var(--shadow-color);
+  transform: scale(1.02);
+}
+
+
+
 
 .academics-box h3{
   font-size: 2.6rem;
