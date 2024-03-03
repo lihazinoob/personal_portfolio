@@ -409,8 +409,16 @@ span{
   position: relative;
   width: 240px;
   height: 330px;
-  border-radius: 16px;
   overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 0 .1rem .5rem var(--shadow-color);
+  transition: .5s ease;
+}
+
+.e-card:hover{
+  box-shadow: 0 .1rem 2rem var(--shadow-color);
+  transform: scale(1.50);
+  cursor: pointer;
 }
 
 .wave {
