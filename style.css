@@ -514,6 +514,32 @@ span{
 }
 
 
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 7%;
+  background: var(--main-color);
+  gap: 2rem;
+}
+
+
+.footer-text p{
+  font-size: 1.6rem;
+  color: var(--white-color);
+}
+
+.footer .btn{
+  cursor: pointer;
+  transition: .5s ease;
+
+}
+.footer .btn:hover{
+  background: var(--bg-color);
+  font-display: var(--main-color);
+  
+}
 
 
  
