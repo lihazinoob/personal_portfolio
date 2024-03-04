@@ -500,6 +500,18 @@ span{
   box-shadow: 0 .1rem .5rem var(--shadow-color);
 }
 
+.contact .formation .input-box input{
+  width: 49%;
+}
+
+.contact .formation textarea{
+  resize: none;
+}
+
+.contact .formation .btn{
+  margin-top: 2rem;
+  cursor: pointer;
+}
 
 
 
